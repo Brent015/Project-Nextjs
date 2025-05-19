@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import { lusitana } from '@/app/ui/fonts';
+// Update the import path below if your fonts file is located elsewhere
+import { lusitana } from '../fonts';
 import Search from '@/app/ui/search';
 import {
   CustomersTableType,
